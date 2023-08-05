@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- remixicon -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.4.0/fonts/remixicon.css" rel="stylesheet">
+    <!-- Swiper css -->
+    <link rel="stylesheet"href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
+    <!-- CSS -->
+    <link rel="stylesheet" href="asset/css/style.css">
+    <link rel="stylesheet" href="asset/css/skins/color-1.css" />
+    <link rel="icon" href="asset/img/users.png">
+    <!-- Skins Color -->
+    <link rel="stylesheet" href="asset/css/skins/color-1.css" class="alternate-style" title="color-1" disabled/>
+    <link rel="stylesheet" href="asset/css/skins/color-2.css" class="alternate-style" title="color-2" disabled/>
+    <title>Portofolio</title>
+</head>
+<body>
+    <!-- header -->
+    <header class="header" id="header">
+    <nav class="nav container">
+        <div class="nav__menu" id="nav-menu">
+        <ul class="nav__list">
+        <li>
+            <a href="#home"class="nav__link active-link">Hello</a>
+        </li>
+        <li>
+            <a href="#services"class="nav__link">Services</a>
+        </li>
+        <li>
+            <a href="#resume"class="nav__link">Resume</a>
+        </li>
+        <li>
+            <a href="#portofolio"class="nav__link">Portofolio</a>
+        </li>
+        <li>
+            <a href="#blog"class="nav__link">Blog</a>
+        </li>
+        <li>
+            <a href="#contact"class="nav__link">Contact</a>
+        </li>
+        </ul>
+        <div class="nav__close" id="nav-close">
+            <i class="ri-close-fill"></i>
+        </div>
+        </div>
+
+        <div class="nav__toggle" id="nav-toggle">
+            <i class="ri-menu-fill"></i>
+        </div>
+    </nav>
+    </header>
+    <!-- main -->
+    <main class="main">
+        <!-- home -->
+        <section class="home" id="home">
+            <div class="home__container container grid">
+                <img src="asset/img/me.png" alt="" class="home__img"/>
+
+                <div class="home__data">
+                    <h1 class="home__name">Abdullah Ramadan_</h1>
+                    <p class="home__work">Front End</p>
+                    <dl class="home__list">
+                    <dt>Age:</dt>
+                    <dd>19</dd>
+                    <dt>Phone:</dt>
+                    <dd>085694886349</dd>
+                    <dt>Email:</dt>
+                    <dd>abdullah.ramadan131@gmail.com</dd>
+                    <dt>Adress</dt>
+                    <dd>Depok Indonesia</dd>
+                </dl>
+                <div class="home__social">
+                    <a href="https://github.com/" target="_blank" class="home__social-link">
+                        <i class="ri-github-fill"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/" target="_blank" class="home__social-link">
+                        <i class="ri-linkedin-box-fill"></i>
+                    </a>
+                    <a href="https:///" target="_blank" class="home__social-link">
+                        <i class="ri-instagram-fill"></i>
+                    </a>
+                </div>
+                </div>
+            </div>
+        </section>
+            <!-- Hello -->
+                    <section class="hello section container">
+                        <h2 class="section__title">Hi_</h2>
+
+                        <p class="hello__details text-lg">
+                            I am a junior in Web Developer, 
+                            I am self-taught through YouTube, 
+                            but before learning to make websites I already have the basics of running a computer, 
+                            both Microsoft Word, Microsoft Excel, Microsoft Power Point. 
+                            I have been interested in the world of web development since high school GOMAWOOOO.
+                        </p>
+                        <a href="asset/img/Abdul-CV.pdf"
+                        class="button button--flex text-sm">
+                        <i class="ri-download-line"></i>DOWNLOAD CV</a>
+                    </section>
+            <!-- Service -->
+                    <section class="services section container" id="services">
+                        <h2 class="section__title">Services_</h2>
+
+                    <div class="services__container grid">
+                        <div class="services__item">
+                            <div class="icon__box">
+                                <img src="asset/img/web-design.png" alt=""class="services__icon"/>
+                                <div class="service__dot">
+                                    <span class="dot"></span>
+                                </div>
+                            </div>
+                        <h3 class="services__title text-lg">WEB DESIGN</h3>
+                        <p class="services__detail">I'm a budding web designer and developer. Contrary to popular belief, this isn't just random text.</p>
+                        </div>
+
+                        <div class="services__item">
+                            <div class="icon__box">
+                                <img src="asset/img/laptop.png" alt=""class="services__icon"/>
+                                <div class="service__dot">
+                                    <span class="dot"></span>
+                                </div>
+                            </div>
+                    <h3 class="services__title text-lg">WEB DEVELOPMENT</h3>
+                    <p class="services__detail">I'm a budding web designer and developer. Contrary to popular belief, this isn't just random text.</p>
+                        </div>
+                        
+                        <div class="services__item">
+                            <div class="icon__box">
+                                <img src="asset/img/paint-palette.png" alt=""class="services__icon"/>
+                                <div class="service__dot">
+                                    <span class="dot"></span>
+                                </div>
+                            </div>
+                    <h3 class="services__title text-lg">CREATIVE DESIGN</h3>
+                    <p class="services__detail">I'm a budding web designer and developer. Contrary to popular belief, this isn't just random text.</p>
+                        </div>
+
+                        <div class="services__item">
+                            <div class="icon__box">
+                                <img src="asset/img/smartphone-call.png" alt=""class="services__icon"/>
+                                <div class="service__dot">
+                                    <span class="dot"></span>
+                                </div>
+                            </div>
+                    <h3 class="services__title text-lg">RESPONSIVE DESIGN</h3>
+                    <p class="services__detail">I'm a budding web designer and developer. Contrary to popular belief, this isn't just random text.</p>
+                        </div>
+
+                        <div class="services__item">
+                            <div class="icon__box">
+                                <img src="asset/img/verified.png" alt=""class="services__icon"/>
+                                <div class="service__dot">
+                                    <span class="dot"></span>
+                                </div>
+                            </div>
+                    <h3 class="services__title text-lg">BRANDING IDENTITY</h3>
+                    <p class="services__detail">I'm a budding web designer and developer. Contrary to popular belief, this isn't just random text.</p>
+                        </div>
+
+                        <div class="services__item">
+                            <div class="icon__box">
+                                <img src="asset/img/operator.png" alt=""class="services__icon"/>
+                                <div class="service__dot">
+                                    <span class="dot"></span>
+                                </div>
+                            </div>
+                    <h3 class="services__title text-lg">24/7 SUPPORT</h3>
+                    <p class="services__detail">I'm a budding web designer and developer. Contrary to popular belief, this isn't just random text.</p>
+                        </div>
+                    </div>
+                    </section>
+                    <!-- Resume -->
+            <section class="section container"id="resume">
+                <h2 class="section__title">Resume_</h2>
+
+                <div class="resume__container grid">
+                    <div class="resume__data">
+                        <h3 class="resume__title">EDUCATION</h3>
+
+                        <div class="resume__item">
+                            <h3 class="resume__subtitle text-sm">SMA NEGERI 10 DEPOK</h3>
+                            <p class="resume__date text-sm">2020 - 2023</p>
+                            <p class="resume__description text-lg">Science major</p>
+                        </div>
+
+                        <div class="resume__item">
+                            <h3 class="resume__subtitle text-sm">SMP NEGERI 25 DEPOK</h3>
+                            <p class="resume__date text-sm">2017 - 2020</p>
+                            <p class="resume__description text-lg"></p>
+                        </div>
+
+                        <div class="resume__item">
+                            <h3 class="resume__subtitle text-sm">SD NEGERI 06 KEDAUNG</h3>
+                            <p class="resume__date text-sm">2011 - 2017</p>
+                            <p class="resume__description text-lg"></p>
+                        </div>
+
+                    </div>
+        
+                    <div class="resume__data">
+                        <h3 class="resume__title">EMPLOYMENT</h3>
+
+                        <div class="resume__item">
+                            <h3 class="resume__subtitle text-sm">FREELANCER</h3>
+                            <p class="resume__date text-sm">2023</p>
+                            <p class="resume__description text-lg">Junior Frontend</p>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+            <!-- Skils -->
+            <section class="section container">
+                <h2 class="section__title">Skills_</h2>
+
+                <div class="skills__container grid">
+                <div class="skills__content">
+                <h3 class="skills__title text-sm">FRONTEND</h3>
+
+                <div class="skills__list grid">
+                    <div class="skills__data">
+                        <div class="skills__titles">
+                            <p class="skills__name text-sm">HTML</p>
+                            <span class="skills_number text-sm">90%</span>
+                        </div>
+
+                        <div class="skills__bar">
+                            <span class="skills__percentage "style="width:90%"></span>
+                        </div>
+                    </div>
+
+                    <div class="skills__data">
+                        <div class="skills__titles">
+                            <p class="skills__name text-sm">CSS</p>
+                            <span class="skills_number text-sm">50%</span>
+                        </div>
+
+                        <div class="skills__bar">
+                            <span class="skills__percentage "style="width:50%"></span>
+                        </div>
+                    </div>
+
+                    <div class="skills__data">
+                        <div class="skills__titles">
+                            <p class="skills__name text-sm">JavaScript</p>
+                            <span class="skills_number text-sm">20%</span>
+                        </div>
+
+                        <div class="skills__bar">
+                            <span class="skills__percentage "style="width:20%"></span>
+                        </div>
+                    </div>
+
+                    <div class="skills__data">
+                        <div class="skills__titles">
+                            <p class="skills__name text-sm">React</p>
+                            <span class="skills_number text-sm">20%</span>
+                        </div>
+
+                        <div class="skills__bar">
+                            <span class="skills__percentage "style="width:20%"></span>
+                        </div>
+                    </div>
+
+                </div>
+                </div>
+
+                <div class="skills__container grid">
+                    <div class="skills__content">
+                    <h3 class="skills__title text-sm">BACKEND</h3>
+    
+                    <div class="skills__list grid">
+                        <div class="skills__data">
+                            <div class="skills__titles">
+                                <p class="skills__name text-sm">PHP</p>
+                                <span class="skills_number text-sm">0%</span>
+                            </div>
+    
+                            <div class="skills__bar">
+                                <span class="skills__percentage "style="width:0%"></span>
+                            </div>
+                        </div>
+    
+                        <div class="skills__data">
+                            <div class="skills__titles">
+                                <p class="skills__name text-sm">NodeJS</p>
+                                <span class="skills_number text-sm">0%</span>
+                            </div>
+    
+                            <div class="skills__bar">
+                                <span class="skills__percentage "style="width:0%"></span>
+                            </div>
+                        </div>
+    
+                        <div class="skills__data">
+                            <div class="skills__titles">
+                                <p class="skills__name text-sm">Python</p>
+                                <span class="skills_number text-sm">0%</span>
+                            </div>
+    
+                            <div class="skills__bar">
+                                <span class="skills__percentage "style="width:0%"></span>
+                            </div>
+                        </div>
+    
+                        <div class="skills__data">
+                            <div class="skills__titles">
+                                <p class="skills__name text-sm">MySQL</p>
+                                <span class="skills_number text-sm">0%</span>
+                            </div>
+    
+                            <div class="skills__bar">
+                                <span class="skills__percentage "style="width:0%"></span>
+                            </div>
+                        </div>
+    
+                    </div>
+                    </div>
+
+            </div>
+            </div>
+            </section>
+
+        <!-- Projects -->
+        <section class="work section container" id="portofolio">
+            <h2 class="section__title">Work_</h2>
+
+            <div class="project__categories">
+                <button class="category__btn text-xs active-work" data-filter="all">ALL</button>
+                <button class="category__btn text-xs" data-filter=".app">MOBILE APPS</button>
+                <button class="category__btn text-xs" data-filter=".web">WEB-SITES</button>
+                <button class="category__btn text-xs" data-filter=".landing">LANDING PAGES</button>
+            </div>
+
+            <div class="projects__container grid">
+                <div class="project__item grid mix app">
+                    <img src="asset/img/project-1.png" alt="" class="project__img">
+
+                    <div class="project__data">
+                        <h3 class="project__title text-lg">MOBILE AND DESKTOP APP</h3>
+                        <p class="project__description">I'm learning a few things in the making of this waiting for the following projects in progress.
+                        </p>
+                        <h4 class="project__stack text-xs">USED STACK:</h4>
+                        <ul class="tags text-sm">
+                        <li>html5</li>
+                        <li>css3</li>
+                        <li>JavaScript</li>
+                        <li>BEM</li>
+                        <li>bower</li>
+                        <li>grunt</li>
+                    </ul>
+
+                    <a href="" class="project__link text-sm">COMING SOON</a>
+                    </div>
+
+                    
+                </div>
+
+                <div class="project__item grid mix web">
+                    <img src="asset/img/project-2.png" alt="" class="project__img">
+
+                    <div class="project__data">
+                        <h3 class="project__title text-lg">MOBILE AND DESKTOP APP</h3>
+                        <p class="project__description">I'm learning a few things in the making of this waiting for the following projects in progress.
+                        </p>
+                        <h4 class="project__stack text-xs">USED STACK:</h4>
+                        <ul class="tags text-sm">
+                        <li>html5</li>
+                        <li>css3</li>
+                        <li>JavaScript</li>
+                        <li>BEM</li>
+                        <li>bower</li>
+                        <li>grunt</li>
+                    </ul>
+
+                    <a href="" class="project__link text-sm">COMING SOON</a>
+                    </div>
+
+                    
+                </div>
+
+                <div class="project__item grid mix landing">
+                    <img src="asset/img/project-3.png" alt="" class="project__img">
+
+                    <div class="project__data">
+                        <h3 class="project__title text-lg">MOBILE AND DESKTOP APP</h3>
+                        <p class="project__description">I'm learning a few things in the making of this waiting for the following projects in progress.
+                        </p>
+                        <h4 class="project__stack text-xs">USED STACK:</h4>
+                        <ul class="tags text-sm">
+                        <li>html5</li>
+                        <li>css3</li>
+                        <li>JavaScript</li>
+                        <li>BEM</li>
+                        <li>bower</li>
+                        <li>grunt</li>
+                    </ul>
+
+                    <a href="" class="project__link text-sm">COMING SOON</a>
+                    </div>
+
+                    
+                </div>
+        </section>
+
+        <!-- Testimonials -->
+        <section class="testimonials section">
+            <div class="testimonial__bg">
+                <div class="testimonial__icon">
+                    <i class="ri-double-quotes-r"></i>
+                </div>
+
+                <div class="swiper testimonial__container container">
+                    <div class="swiper-wrapper">
+
+                        <div class="swiper-slide testimonial__item">
+                            <h3 class="author__name text-lg">HR Muslim no. 2699</h3>
+                            <p class="author__project">Hadist: About Studying</p>
+                            <div class="ruler"></div>
+                            <p class="testimonial__description text-lg">Whoever follows a path in search of knowledge, Allah will make easy for him a path to paradise.</p>
+                        </div>
+
+                        <div class="swiper-slide testimonial__item">
+                            <h3 class="author__name text-lg">Ghea Indrawari</h3>
+                            <p class="author__project">Song: Jiwa Yang Bersedih</p>
+                            <div class="ruler"></div>
+                            <p class="testimonial__description text-lg">listen this is a song that cheers me up.</p>
+                        </div>
+
+                        <div class="swiper-slide testimonial__item">
+                            <h3 class="author__name text-lg">Anonim</h3>
+                            <p class="author__project">Quote</p>
+                            <div class="ruler"></div>
+                            <p class="testimonial__description text-lg">keep learning regardless of age.</p>
+                        </div>
+                    </div>
+
+                    <div class="swiper-button-next">
+                        <img src="asset/img/arrow-next.svg" alt="">
+                    </div>
+                    <div class="swiper-button-prev">
+                        <img src="asset/img/arrow-prev.svg" alt="">
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Blog -->
+        <section class="blog section container" id="blog">
+            <h2 class="section__title">Latest Posts_</h2>
+
+            <div class="posts__container grid">
+                <a href="blog_details.html" class="post__card">
+                    <img src="asset/img/blog-1.png" alt="" class="post__img">
+
+                    <div class="post__content">
+                        <p class="post__date text-xs">Juli 22, 2023</p>
+                        <h3 class="post__title text-sm">HOW TO USE CSS-PREPROCESSOR</h3>
+                        <p class="post__description text-sm">The pain itself is very important, it will be followed by the elites, but this kind of weather happens...</p>
+                    </div>
+                </a>
+
+                <a href="blog_details.html" class="post__card">
+                    <img src="asset/img/blog-2.png" alt="" class="post__img">
+
+                    <div class="post__content">
+                        <p class="post__date text-xs">Juli 22, 2023</p>
+                        <h3 class="post__title text-sm">HOW I ORGANIZE MY WORK WITH CODE</h3>
+                        <p class="post__description text-sm">The pain itself is very important, it will be followed by the elites, but this kind of weather happens...</p>
+                    </div>
+                </a>
+
+                <a href="blog_details.html" class="post__card">
+                    <img src="asset/img/blog-3.png" alt="" class="post__img">
+
+                    <div class="post__content">
+                        <p class="post__date text-xs">Juli 22, 2023</p>
+                        <h3 class="post__title text-sm">SVG SPRITES VS ICON FONT</h3>
+                        <p class="post__description text-sm">The pain itself is very important, it will be followed by the elites, but this kind of weather happens...</p>
+                    </div>
+                </a>
+
+            </div>
+        </section>
+
+        <!-- Contact -->
+        <section class="contact section" id="contact">
+            <div class="contact__content container">
+                <h2 class="section__title">Get in touch_</h2>
+
+                <div class="contact__container grid">
+                    <div class="contact__info">
+                        <dl class="contact__list">
+                            <dt>Phone:</dt>
+                            <dd>085694886349</dd>
+                            <dt>Instagram:</dt>
+                            <dd>@ramdneln</dd>
+                            <dt>Email:</dt>
+                            <dd>abdullah.ramadan131@gmail.com</dd>
+                        </dl>
+
+                        <ul class="contact__socials">
+                            <li>
+                                <a href="https://www.linkedin.com/" class="contact__social-link">Linkedin</a>
+                            </li>
+                            <li>
+                                <a href="https://github.com/Ramaaael" class="contact__social-link">Github</a>
+                            </li>
+                            <li>
+                                <a href="https://www.instagram.com/ramdneln/" class="contact__social-link">Instagram</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="contact__form">
+                        <p class="contact__form-title">Or just write me a letter here_</p>
+
+                        <form action="" id="contact-form">
+                            <div class="contact__input-div">
+                                <input type="text" name="name" placeholder="Your name" class="contact__input" id="contact-name">
+                            </div>
+
+                            <div class="contact__input-div">
+                                <input type="email" name="email" placeholder="Your e-mail" class="contact__input" id="contact-email">
+                            </div>
+
+                            <div class="contact__input-div">
+                            <textarea name="message" placeholder="Type yhe message here" class="contact__input textarea" id="message" cols="30" rows="10"></textarea>
+                            </div>
+
+                            <p class="contact__message text-sm" id="contact-message"></p>
+
+                            <button type="submit" class="button contact__button">SEND</button>
+                        </form>
+
+                        <p class="footer__copy">&copy; 2023 Ramaa.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- Style Swithcer -->
+    <div class="style__switcher">
+        <div class="style__switcher-toggler">
+            <i class="ri-settings-4-fill"></i>
+        </div>
+        <div class="colors">
+            <span class="color-1" onclick="setActiveStyle('color-1')"></span>
+            <span class="color-2" onclick="setActiveStyle('color-2')"></span>
+        </div>
+    </div>
+    <!-- Mixitup -->
+    <script src="asset/js/mixitup.min.js"></script>
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <!-- Email Js -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <!-- js -->
+    <script src="asset/js/main.js"></script>
+    <!-- Common -->
+    <script src="asset/js/common.js"></script>
+</body>
+</html>
